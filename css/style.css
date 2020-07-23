@@ -27,7 +27,7 @@ a{
    3. NAVIGATION */
 /* CONTAINER */
 .container{
-    width: 80%;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -79,10 +79,9 @@ nav{
     color: lightskyblue;
     border-bottom: 3px solid lightskyblue;
 }
-
+/* FOOTER */
 .footer_bgc{
     background-color: #4267b2;
-    margin-top: -4px;
 }
 
 p{
@@ -90,4 +89,58 @@ p{
     color: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
+}
+
+/* MENU */
+.active_menu_item{
+    color: lightskyblue;
+    border-bottom: 3px solid lightskyblue;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content_item{
+    width: 400px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+
+.content_item_title{
+    margin: 0;
+    padding: 10px 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.content_item_logo{
+    padding: 10px;
+    border-radius: 15px;
+    
+}
+.content_item_logo:hover{
+    cursor: pointer;
+}
+.content_item_text{
+    color: #000;
+    padding: 10px 0;
+}
+
+.content_item_button{
+    margin: 10px;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    display: block;
+    background-color:rgb(40, 182, 40);
+    transition: all .3s ease;
+}
+.content_item_button:hover{
+    background-color:rgb(87, 195, 87);
+    color: #fff;
+    border-radius: 40px;
 }
