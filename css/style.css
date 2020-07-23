@@ -144,3 +144,38 @@ p{
     color: #fff;
     border-radius: 40px;
 }
+
+/* ABOUT ME */
+.section_left{
+    background-color: #335384;
+    width: 360px;
+    display: inline-block;
+    font-size: 16px;
+}
+.sectrion_left_logo{
+    padding: 30px;
+}
+.sectrion_left__logo{
+    border-radius: 50%;
+}
+
+.padding_left{
+    padding: 30px;
+}
+
+.section_left_contact_title{
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section_left_contact p{
+    display: block;
+    padding: 10px 0;
+}
+
+.section_skills p{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
