@@ -14,8 +14,11 @@ body{
     margin: 0;
     font-family: Consolas;
     font-size: 16px;
-    
 }
+p{
+    margin: 0;
+}
+
 a{
     text-decoration: none;
 }
@@ -43,6 +46,7 @@ header{
 .header_logo a{
     color: #fff;
     transition: all .3s ease;
+    text-decoration: none;
     margin: 25px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
@@ -75,6 +79,15 @@ nav{
     color: lightskyblue;
     border-bottom: 3px solid lightskyblue;
 }
-.content_photo{
-    width: 100%;
+
+.footer_bgc{
+    background-color: #4267b2;
+    margin-top: -4px;
+}
+
+p{
+    display: inline-block;
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
